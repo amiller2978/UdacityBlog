@@ -1,64 +1,61 @@
 @import "blog1.css";
 @import "blog2.css";
-
+@import "social.css";
 .grid-container {
     display: grid;
-    grid-auto-columns: minmax(75px,auto);
+    grid-auto-columns: minmax(75px, auto);
     /* maybe change below auto,auto to 100px,auto */
-    grid-auto-rows:minmax(auto,auto);
-    grid-template-areas: 
-    "hd hd hd hd hd hd"
-    "bp bp bp bp bi bi"
-    "ft ft ft ft ft ft" ;
+    grid-auto-rows: minmax(auto, auto);
+    grid-template-areas: "hd hd hd hd hd hd" "bp bp bp bp bi bi" "ft ft ft ft ft ft";
     background-color: rgb(14, 17, 190);
-    
     padding: 10px;
     grid-column-gap: 25px;
     grid-row-gap: 5px;
     justify-content: left;
-  }
+}
 
-  .blogblock {
+.blogblock {
     display: grid;
     background-color: rgb(252, 249, 96);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
-    font-size: 30px;
+    font-size: 3vw;
     text-align: left;
     grid-area: bp;
     word-wrap: break-word;
-   
-  }
-  .picture{
+}
+
+.picture {
     display: grid;
     background-color: rgb(252, 249, 96);
-   
+}
 
-  }
- /* define where the divs are placed */
-  .header{
-    grid-area:hd;
-  }
 
-  .picture{
-    grid-area:bi;
-  }
+/* define where the divs are placed */
 
-  #picture1{
+.header {
+    grid-area: hd;
+}
+
+.picture {
+    grid-area: bi;
+}
+
+#picture1 {
     background-image: url('../images/N127KT.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-  }
-  #picture2{
+}
+
+#picture2 {
     background-image: url('../images/RollSelfie.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-  }
+}
 
-  
-  .grid-item2 {
+.grid-item2 {
     background-color: rgb(252, 249, 96);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
@@ -68,80 +65,25 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-   
-  }
-  .grid-item3 {
+}
+
+.grid-item3 {
     background-color: rgb(252, 249, 96);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: left;
+}
 
-  }
-
-
-  .grid-containerblog {
+.grid-containerblog {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     background-color: rgb(169, 232, 243);
     padding: 50px;
     justify-content: left;
-  }
- .grid-itempicture{
-   height:500px;
-   background-position: left;
-   
- }
+}
 
- /* #headertext1{
-   color:rgb(0, 0, 0);
-   text-shadow: 3px 1px yellow;
- }
-  #picture1a {
-    background-image: url('../images/N127KT.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    
-   
-  }
-
-  #picture1b {
-    background-image: url('../images/ftFuzzinsN127KT.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    
-   
-  }
-
-  
-  #picture1c {
-    background-image: url('../images/ktmk_ftfun.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    
-   
-  }
-
-  #headertext2{
-    color:rgb(0, 0, 0);
-    text-shadow: 3px 1px yellow;
-  }
-   #picture2a {
-     background-image: url('../images/RollSelfie.jpg');
-     background-size: contain;
-     background-repeat: no-repeat;
-     
-    
-   }
- 
-   #picture2b {
-     background-image: url('../images/RollSelfie2.jpg');
-     background-size: contain;
-     background-repeat: no-repeat;
-     
-    
-   }
-  */
-   
-
-
+.grid-itempicture {
+    height: 500px;
+    background-position: left;
+}

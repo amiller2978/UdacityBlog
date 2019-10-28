@@ -1,28 +1,22 @@
-#headertext1{
-    color:rgb(0, 0, 0);
+#headertext1 {
+    color: rgb(0, 0, 0);
     text-shadow: 3px 1px yellow;
-  }
-   #picture1a {
-     background-image: url('../images/N127KT.jpg');
-     background-size: contain;
-     background-repeat: no-repeat;
-     
-    
-   }
- 
-   #picture1b {
-     background-image: url('../images/ftFuzzinsN127KT.jpg');
-     background-size: contain;
-     background-repeat: no-repeat;
-     
-    
-   }
- 
-   
-   #picture1c {
-     background-image: url('../images/ktmk_ftfun.jpg');
-     background-size: contain;
-     background-repeat: no-repeat;
-     
-    
-   }
+}
+
+#picture1a {
+    background-image: url('../images/N127KT.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#picture1b {
+    background-image: url('../images/ftFuzzinsN127KT.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#picture1c {
+    background-image: url('../images/ktmk_ftfun.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
