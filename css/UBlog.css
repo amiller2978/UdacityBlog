@@ -42,6 +42,7 @@
 
   .blogblock{
     grid-area: bp;
+    word-wrap: break-word;
   }
   .picture{
     grid-area:bi;
@@ -79,20 +80,7 @@
     padding: 20px;
     font-size: 30px;
     text-align: left;
-    /* background-image: url('../images/RollSelfie.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right; */
-   
-  }
-  
-  /* .grid-item img{
-    flex-shrink: 0;
-    min-width: 80%;
-    min-height: 100%;
-  } */
 
-/* styling for the individual blog posts */
 
 
 
