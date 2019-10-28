@@ -1,0 +1,20 @@
+#headertext2{
+    color:rgb(0, 0, 0);
+    text-shadow: 3px 1px yellow;
+  }
+   #picture2a {
+     background-image: url('../images/RollSelfie.jpg');
+     background-size: contain;
+     background-repeat: no-repeat;
+     
+    
+   }
+ 
+   #picture2b {
+     background-image: url('../images/RollSelfie2.jpg');
+     background-size: contain;
+     background-repeat: no-repeat;
+     
+    
+   }
+ 

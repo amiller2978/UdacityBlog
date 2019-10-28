@@ -1,3 +1,6 @@
+@import "blog1.css";
+@import "blog2.css";
+
 .grid-container {
     display: grid;
     grid-auto-columns: minmax(75px,auto);
@@ -77,9 +80,6 @@
   }
 
 
-
-
-
   .grid-containerblog {
     display: flex;
     flex-direction:column;
@@ -93,7 +93,7 @@
    
  }
 
- #headertext1{
+ /* #headertext1{
    color:rgb(0, 0, 0);
    text-shadow: 3px 1px yellow;
  }
@@ -141,7 +141,7 @@
      
     
    }
- 
+  */
    
 
 
