@@ -1,16 +1,12 @@
-<!-- Main page -->
-
-
-<!DOCTYPEhtml>
+<!DOCTYPE html>
 <html>
 
 <head>
 
-    <!-- <link rel="stylesheet" href="css/UBlog.css"> -->
+
     <script src="https://kit.fontawesome.com/319826a12b.js" crossorigin="anonymous"></script>
     <style>
         @import url("css/UBlog.css");
-        /* @import url(""); */
     </style>
     <metacharset="utf-8" />
     <title>Flight Blog</title>
@@ -21,18 +17,25 @@
 <body>
     <article>
         <div class="header" id="header">
-            <h1>N127KT Flight Blog</h1>
+            <h1 id="blogheader">N127KT Flight Blog</h1>
+            <div class="navbar">
+
+                <a class="link" href="index.html"><i>Search</i></a>
+                <form action="index.html">
+                    <button type="submit">Subscribe</button>
+                </form>
+                <a class="link" href="index.html"> <b>About</b></a>
+            </div>
         </div>
+
 
         <div class="grid-container" id="blog1">
 
             <div class="blogblock" id="blog1">
-                <h1>Tillamook(KMTK)</h1>
-                <p>Flying to Tillamook to take some friends for a ride.</p>
+                <h2>Tillamook(KMTK)</h2>
+                <h3>Flying to Tillamook to take some friends for a ride.</h3>
 
-                <!-- <form action="blogPosts/blogPost1.html">
-                  <button type="submit">View this blog post</button>
-                </form> -->
+
                 <a href="blogPosts/blogPost1.html">See the post</a>
             </div>
             <div class="picture" id="picture1"></div>
@@ -44,8 +47,8 @@
         <div class="grid-container" id="blog2">
 
             <div class="blogblock" id="blog2">
-                <h1>McMinville(KMMV)</h1>
-                <p>Aerobatics near McMinville</p>
+                <h2>McMinville(KMMV)</h2>
+                <h3>Aerobatics near McMinville</h3>
 
                 <!-- <form action="blogPosts/blogPost2.html">
                         <button type="submit">View this blog post</button>

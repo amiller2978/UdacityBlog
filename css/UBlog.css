@@ -34,7 +34,15 @@
 /* define where the divs are placed */
 
 .header {
-    grid-area: hd;
+    grid-area: hd hd hd hd hd hd hd;
+    background-image: url('../images/cloudsHeader.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: left;
+}
+
+#blogheader {
+    font-size: 4vw;
 }
 
 .picture {
@@ -86,4 +94,18 @@
 .grid-itempicture {
     height: 500px;
     background-position: left;
+}
+
+
+/* navbar CSS */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    float: center;
+    color: rgb(14, 17, 190);
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
