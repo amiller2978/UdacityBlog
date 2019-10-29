@@ -20,3 +20,9 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+.blogfooter{
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
+    padding: 5px;
+}

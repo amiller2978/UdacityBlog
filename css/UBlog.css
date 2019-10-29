@@ -92,17 +92,16 @@
 }
 
 .biotext {
-    visibility: hidden;
+    visibility: visible;
     width: 180px;
     background-color: black;
     color: rgb(252, 249, 96);
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
-    position: absolute;
-    z-index: 1;
+    
 }
 
-.bio:hover .biotext {
+/* .bio:hover .biotext {
     visibility: visible;
-}
+} */
