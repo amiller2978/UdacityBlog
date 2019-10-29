@@ -3,7 +3,7 @@
 @import "social.css";
 .grid-container {
     display: grid;
-    grid-auto-columns: minmax(75px, auto);
+    grid-auto-columns: minmax(auto, auto);
     /* maybe change below auto,auto to 100px,auto */
     grid-auto-rows: minmax(auto, auto);
     grid-template-areas: "hd hd hd hd hd hd" "bp bp bp bp bi bi" "ft ft ft ft ft ft";
@@ -50,20 +50,21 @@
 }
 
 #picture1 {
-    background-image: url('../images/N127KT.jpg');
+    /* background-image: url('../images/N127KT.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right; */
+    max-height: 90%;
+    max-width: 100%;
 }
 
 #picture2 {
-    background-image: url('../images/RollSelfie.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
+    max-height: 90%;
+    max-width: 100%;
 }
 
-.grid-item2 {
+
+/* .grid-item2 {
     background-color: rgb(252, 249, 96);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
@@ -73,7 +74,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-}
+} */
 
 .grid-item3 {
     background-color: rgb(252, 249, 96);
@@ -103,9 +104,32 @@
     display: flex;
     flex-direction: row;
     float: center;
-    color: rgb(14, 17, 190);
     text-align: center;
     padding: 20px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+
+
+/* Bio CSS */
+
+.bio {
+    position: relative;
+    display: inline-block;
+}
+
+.biotext {
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: rgb(252, 249, 96);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.bio:hover .biotext {
+    visibility: visible;
 }
